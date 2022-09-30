@@ -76,7 +76,7 @@ public class PolyArgumentTest2 {
 		
 		// Product p1 = new Tv();  // int i = 10; 
 		// b.buy(p1);              // System.out.println(i); 
-		b.buy(new Tv());        // 위의 2줄을 1줄로 줄인 것.
+		b.buy(new Tv());        // 위의 2줄을 1줄로 줄인 것. [new 생성자객체()]를 써주면 편하다.
 		System.out.printf("남은 금액은 %d원입니다.\n", b.money);		
 		System.out.printf("적립된 포인트는 %dp입니다.\n", b.bonusPoint);
 		System.out.println("");
